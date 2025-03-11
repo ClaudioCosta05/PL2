@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package isep.eapli.demo_orm.persistencia;
+
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;

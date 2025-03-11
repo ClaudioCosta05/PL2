@@ -4,18 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b548031-d32a-473e-affd-20420f841f6f" name="Changes" comment="jpa" />
+    <list default="true" id="6b548031-d32a-473e-affd-20420f841f6f" name="Changes" comment="jpa">
+      <change afterPath="$PROJECT_DIR$/../Teste/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Teste/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GrupoAutomovel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Console.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/DateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/PL2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/PL2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrupoAutomovelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupoAutomovelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrupoAutomovelRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupoAutomovelRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrupoAutomovelRepositorioJPAImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupoAutomovelRepositorioJPAImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrupoAutomovelUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupoAutomovelUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JpaRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DiogoAmorim15"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ClaudioCosta05/PL2.git",
+    "accountId": "6d3dd8db-e50e-4bca-8de2-be933db5173e"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2uB3VIYVYkwsNdMF9kK6nH3gOcV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,8 +68,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Diogo/IdeaProjects/PL2/demo1/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -37,11 +84,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="java" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Diogo\IdeaProjects\PL2\demo1\src\main\java" />
+      <recent name="C:\Users\Diogo\IdeaProjects\PL2\demo1\src\main\java\java" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
       </set>
     </attachedChunks>
   </component>
@@ -54,6 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741708165827</updated>
       <workItem from="1741708166932" duration="1259000" />
+      <workItem from="1741711882414" duration="1153000" />
     </task>
     <task id="LOCAL-00001" summary="jpa">
       <option name="closed" value="true" />
