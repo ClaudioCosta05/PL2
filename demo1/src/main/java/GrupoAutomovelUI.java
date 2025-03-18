@@ -10,7 +10,7 @@ import util.Console;
  *
  * @author mcn
  */
-public class GrupoAutomovelUI {
+public class GrupoAutomovelUI  implements  Runnable{
 
     private final GrupoAutomovelController controller = new GrupoAutomovelController();
     
@@ -30,4 +30,10 @@ public class GrupoAutomovelUI {
 	public void procurarGAPorID(long id) {
 		throw new UnsupportedOperationException("Ainda não implementada.");
 	}
+
+    @Override
+    public void run() {
+        registarGA();
+
+    }
 }
