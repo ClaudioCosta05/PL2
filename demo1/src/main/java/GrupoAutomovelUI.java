@@ -45,6 +45,7 @@ public class GrupoAutomovelUI implements Runnable {
         switch (numero) {
             case 1:
                 registarGA();
+                System.out.println("Grupo de automovel criado com sucesso!");
                 break;
             case 2:
                 listarGAs();

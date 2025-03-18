@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b548031-d32a-473e-affd-20420f841f6f" name="Changes" comment="atualizei os ficheiros de configuraçao">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6b548031-d32a-473e-affd-20420f841f6f" name="Changes" comment="classe controller e automovel atualizada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GrupoAutomovelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupoAutomovelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GrupoAutomovelUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupoAutomovelUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +142,8 @@
     <MESSAGE value="." />
     <MESSAGE value="jpa" />
     <MESSAGE value="atualizei os ficheiros de configuraçao" />
-    <option name="LAST_COMMIT_MESSAGE" value="atualizei os ficheiros de configuraçao" />
+    <MESSAGE value="classe controller e automovel atualizada" />
+    <option name="LAST_COMMIT_MESSAGE" value="classe controller e automovel atualizada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
