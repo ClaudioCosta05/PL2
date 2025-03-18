@@ -18,14 +18,15 @@ public class GrupoAutomovelController {
         GrupoAutomovelRepositorio repo = new GrupoAutomovelRepositorioJPAImpl();
         return repo.add(grupo1);
     }
-    
+
     public List<GrupoAutomovel> listarGruposAutomoveis() {
         GrupoAutomovelRepositorio repo = new GrupoAutomovelRepositorioJPAImpl();
 		return repo.findAll();
 	}
 
 	public GrupoAutomovel procurarGrupoAutomovel(long id) {
-		throw new UnsupportedOperationException("Ainda não implementada");
+		GrupoAutomovelRepositorio repo = new GrupoAutomovelRepositorioJPAImpl();
+        return repo.findById(id);
 	}
 
         /*  Versão  sem usar padrão repositório
