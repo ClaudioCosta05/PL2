@@ -28,7 +28,9 @@ public class GrupoAutomovelUI  implements  Runnable{
 	}
 
 	public void procurarGAPorID(long id) {
-		throw new UnsupportedOperationException("Ainda não implementada.");
+        System.out.printf("Grupo automovels do id %d: ", id);
+        GrupoAutomovel  grupoAutomovel =  controller.procurarGrupoAutomovel(id);
+        System.out.printf("Grupo automovel -> %s: ", grupoAutomovel);
 	}
 
     @Override
