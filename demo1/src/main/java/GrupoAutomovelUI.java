@@ -6,14 +6,15 @@
 
 import util.Console;
 
+import java.util.List;
+
 /**
- *
  * @author mcn
  */
-public class GrupoAutomovelUI  implements  Runnable{
+public class GrupoAutomovelUI implements Runnable {
 
     private final GrupoAutomovelController controller = new GrupoAutomovelController();
-    
+
     public void registarGA() {
         System.out.println("*** Registo Grupo Automóvel ***\n");
         String nome = Console.readLine("Nome:");
@@ -23,17 +24,35 @@ public class GrupoAutomovelUI  implements  Runnable{
                 registarGrupoAutomóvel(nome, portas, classe);
         System.out.println("Grupo Automóvel" + grupoAutomovel);
     }
-    public void listarGAs() {
-		throw new UnsupportedOperationException("Ainda não implementada.");
-	}
 
-	public void procurarGAPorID(long id) {
-		throw new UnsupportedOperationException("Ainda não implementada.");
-	}
+    public void listarGAs() {
+        System.out.println("Grupos de Automoveis");
+        List<GrupoAutomovel> lista = controller.listarGruposAutomoveis();
+        System.out.println(lista);
+    }
+
+    public void procurarGAPorID(long id) {
+        throw new UnsupportedOperationException("Ainda não implementada.");
+    }
 
     @Override
     public void run() {
-        registarGA();
+        System.out.println("Escolha a opçao que deseja:");
+        System.out.println("1. Registar Grupo");
+        System.out.println("2. Listar Grupos");
+        System.out.println("3. Procurar Grupo");
+        int numero = Console.readInteger("Escolha um numero: ");
+        switch (numero) {
+            case 1:
+                registarGA();
+                break;
+            case 2:
+                listarGAs();
+                break;
+            case 3:
+                int id = Console.readInteger("Escolha um id: ");
+                procurarGAPorID(id);
+        }
 
     }
 }

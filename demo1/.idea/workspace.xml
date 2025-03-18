@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6b548031-d32a-473e-affd-20420f841f6f" name="Changes" comment="atualizei os ficheiros de configuraçao">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrupoAutomovelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupoAutomovelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GrupoAutomovelUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GrupoAutomovelUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742313986833</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="atualizei os ficheiros de configuraçao">
+      <option name="closed" value="true" />
+      <created>1742315090833</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742315090833</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
